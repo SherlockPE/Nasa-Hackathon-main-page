@@ -1,12 +1,23 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* --- Modificaciones clave --- */
+
+/* 1. Asegura que body y html ocupen todo el viewport */
+html, body, #root {
+  height: 100%; /* Ocupa el 100% de la altura disponible */
+  width: 100%;  /* Ocupa el 100% del ancho disponible */
 }
+
+/* 2. Elimina las restricciones de ancho y centrado en #root */
+#root {
+  /*max-width: 1280px; <-- ¡Eliminado o comentado! */
+  margin: 0; /* ¡Cambiado de auto a 0! */
+  padding: 0; /* ¡Cambiado de 2rem a 0! */
+  /* text-align: center; <-- Puedes mantenerlo o eliminarlo según tus componentes interiores */
+}
+
+/* --- Resto de tu CSS original --- */
 
 .logo {
   height: 6em;
@@ -18,7 +29,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop_shadow(0 0 2em #61dafbaa);
 }
 
 @keyframes logo-spin {
@@ -43,6 +54,9 @@
 .read-the-docs {
   color: #888;
 }
+
+/*... (El resto de tus definiciones de @theme, :root, .dark, y @layer base) ...*/
+/* Incluye todas tus variables de color y @layer base aquí. */
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);

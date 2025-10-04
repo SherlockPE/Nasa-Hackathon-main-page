@@ -1,49 +1,26 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
-// import Spline from '@splinetool/react-spline'; // For 3D In spline
-import Nav from './Navigation.tsx';
+import Body from './Body.tsx'
+import Footer from './Footer.tsx'
+import Nav from './Navigation.tsx'
 
-
-
-// function Planet() {
-// 	return (
-// 		<Spline scene="https://prod.spline.design/imJjIUKl8VnTi-1a/scene.splinecode" />
-// 	);
-// }
-
-
-// function	Body()
-// {
-// 	return (
-// 		<>
-// 			<h1>
-// 				Los Argonautas
-// 			</h1>
-// 		</>
-// 	);
-
-
-
-
-// }
-
-// function	Footer()
-// {
-// 	return (
-// 		<div>
-// 			<>
-
-// 			</>
-// 		</div>
-// 	);
-// }
+function Logo() {
+	return (
+		<div p-4 className="fixed top-0 left-0 z-50 m-4 p-4">
+			<p className="font-semibold text-primary-foreground/90">
+					Los Argonautas 🚀🐈
+			</p>
+		</div>
+	)
+}
 
 
 function App() {
 	return (
 		<>
+			<Logo />
 			<Nav></Nav>
+			<Body></Body>
+			<Footer></Footer>
 		</>
 	)
 }
