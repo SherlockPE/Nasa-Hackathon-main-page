@@ -27,7 +27,7 @@ function AboutChallenge() {
         // Contenedor Principal: Fondo y Flexbox
         <div className={
             `min-h-screen w-full 
-            bg-repeat bg-cover bg-center bg-bottom
+            bg-repeat bg-cover bg-bottom
             bg-[linear-gradient(to_top,rgba(15,23,42,0.2),rgba(50,49,127,0.5)),url('../public/space-3.jpg')]
             text-white
             pt-24 md:pt-40 
@@ -95,7 +95,7 @@ function AboutChallenge() {
 							<button 
 								data-ripple-light="true" 
 								type="button" 
-								className='select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'
+								className='select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'
 							>
 								Read More
 							</button>
