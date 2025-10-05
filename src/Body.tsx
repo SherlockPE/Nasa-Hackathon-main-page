@@ -4,7 +4,7 @@
 // para usar la imagen de fondo de las estrellas.
 import TextType from './components/TextType';
 import AboutUs from './AboutUs';
-
+import { Button } from './components/ui/button';
 
 function Main_page() {
 	return (
@@ -17,6 +17,11 @@ function Main_page() {
 				<h1 className="text-6xl font-extrabold text-primary-foreground tracking-tight py-8">
 					Building Habitable homes for Space
 				</h1>
+				<a href="https://david-3lm.itch.io/nasa-space-apps-challenge">
+					<Button>
+						Start Game
+					</Button>
+				</a>
 				
 			</div>
 		</div>
