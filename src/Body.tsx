@@ -3,6 +3,7 @@
 // La clase 'custom-hero-bg' debe estar definida en tu App.css (como te expliqué antes) 
 // para usar la imagen de fondo de las estrellas.
 import TextType from './components/TextType';
+import AboutUs from './AboutUs';
 
 
 function Main_page() {
@@ -107,8 +108,6 @@ function AboutChallenge() {
     )
 }
 
-
-
 function Body() {
   return (
 	<>
@@ -117,6 +116,9 @@ function Body() {
 
 		<AboutChallenge>
 		</AboutChallenge>
+
+		<AboutUs>
+		</AboutUs>
 	</>
 );
 }
